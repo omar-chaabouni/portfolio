@@ -120,6 +120,13 @@ section {
   font-weight: 700;
   line-height: 1.1;
 }
+.home-text h4 {
+  color: var(--text-color);
+  margin: 0 0 35px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
 .home-text p {
   color: var(--second-color);
   font-size: var(--p-font);
@@ -270,6 +277,12 @@ header.sticky {
 }
 .box h3 {
   font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+.box h4 {
+  font-size: 20px;
   font-weight: 600;
   color: var(--text-color);
   margin-bottom: 15px;
@@ -517,6 +530,9 @@ form textarea {
   .home-text h3 {
     font-size: 2.5rem;
   }
+  .home-text h4 {
+    font-size: 1.8rem;
+  }
   .home {
     height: 87vh;
   }
@@ -550,6 +566,10 @@ form textarea {
   .home-text h3 {
     margin: 0 0 35px;
     font-size: 1.5rem;
+  }
+  .home-text h4 {
+    margin: 0 0 35px;
+    font-size: 1.2rem;
   }
 .home-text h1 {
   font-size: 2rem;
